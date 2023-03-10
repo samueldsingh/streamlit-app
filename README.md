@@ -180,7 +180,7 @@ def display_state_filter(df, state):
     return st.sidebar.selectbox('State', state_list, state_index)
 ```
 
-The entire code tied together to produce the [interactive webmap](https://samueldsingh-streamlit-app-streamlit-app-ha3455.streamlit.app/) is given here.
+The [entire code](https://github.com/samueldsingh/streamlit-app/blob/master/streamlit_app.py) tied together to produce the [interactive webmap](https://samueldsingh-streamlit-app-streamlit-app-ha3455.streamlit.app/) is given here.
 
 ### References:
 Create Dashboard with Folium Map, Streamlit and Python - Full Course (Zackaria Chowdary)
