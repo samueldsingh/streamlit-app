@@ -1,6 +1,6 @@
 # Interactive webmap using Python Streamlit - Agriculture Production in India
 
-Python can be used to convert an ordinary csv file into an interactive web map. 
+Python can be used to convert an ordinary csv file into an [interactive web map](https://samueldsingh-streamlit-app-streamlit-app-ha3455.streamlit.app/). 
 My goal was to visualize agriculture crop production of India across different 
 years and for different crops. I obtained the crop data from the government 
 website, Ministry of Agriculture and Farmers welfare.
@@ -179,6 +179,8 @@ def display_state_filter(df, state):
     state_index = state_list.index(state) if state and state in state_list else 0   #display state only it is in state_list else select the first index
     return st.sidebar.selectbox('State', state_list, state_index)
 ```
+
+The entire code tied together to produce the [interactive webmap](https://samueldsingh-streamlit-app-streamlit-app-ha3455.streamlit.app/) is given here.
 
 ### References:
 Create Dashboard with Folium Map, Streamlit and Python - Full Course (Zackaria Chowdary)
