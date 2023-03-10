@@ -67,10 +67,10 @@ def main():
     st.caption(APP_SUB_TITLE)
 
     #LOAD DATA
-    df_country = pd.read_csv('India Agriculture Crop Production.csv')   
-    df_area = pd.read_csv('India Agriculture Crop Production.csv')
-    df_prod = pd.read_csv('India Agriculture Crop Production.csv')
-    df = pd.read_csv('India Agriculture Crop Production.csv')
+    df_country = pd.read_csv('data/India Agriculture Crop Production.csv')   
+    df_area = pd.read_csv('data/India Agriculture Crop Production.csv')
+    df_prod = pd.read_csv('data/India Agriculture Crop Production.csv')
+    df = pd.read_csv('data/India Agriculture Crop Production.csv')
 
     field_name = 'Yield'
     crop = 'Rice'
