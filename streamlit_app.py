@@ -33,7 +33,7 @@ def display_map(df, year, crop, season):
         folium.features.GeoJsonTooltip(['st_nm'], labels=False)
     )
 
-    st_map = st_folium(map, width=900, height=700)
+    st_map = st_folium(map, width=700, height=500)
 
     state = ''
     if st_map['last_active_drawing']:
