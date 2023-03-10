@@ -5,7 +5,7 @@ My goal was to visualize agriculture crop production of India across different
 years and for different crops. I obtained the crop data from the government 
 website, Ministry of Agriculture and Farmers welfare.
 
-For creating the map, I'll use the Python Folium Library, and for boundary I'll use the India GeoJSON file.
+For creating the map, I'll use the Python Folium Library, and for boundary I'll use the [India GeoJSON file](https://github.com/samueldsingh/streamlit-app/blob/master/data/states_india.geojson).
 
 ## Installing and creating the skeleton on the web map
 
